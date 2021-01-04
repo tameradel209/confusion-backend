@@ -1,7 +1,5 @@
 const mongoose = require('mongoose')
 
-const currency = require('mongoose-currency')
-
 const Schema = mongoose.Schema
 
 const CommentSchema = new Schema({

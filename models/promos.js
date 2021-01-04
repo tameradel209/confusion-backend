@@ -1,5 +1,4 @@
 const mongoose = require('mongoose')
-const currency = require('mongoose-currency')
 
 const Schema = mongoose.Schema
 
@@ -17,7 +16,7 @@ const PromosSchema = new Schema({
         required: true
     },
     price:{
-        type: currency,
+        type: Number,
         required: true
     },
     featured:{
